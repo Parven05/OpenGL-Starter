@@ -18,7 +18,7 @@ git clone https://github.com/yourusername/OpenGL-Starter.git
 ```
 2. Build & Run
 ```bash
-cd OpenGL-Starter/build
+cd build
 cmake ..
 make
 ./main
