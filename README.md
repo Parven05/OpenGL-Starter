@@ -1,5 +1,5 @@
 # OpenGL-Starter
-Starter project with **OpenGL**, **SDL3**, and **GLEW**.
+Starter project with **OpenGL**, **SDL3**, and **GLEW** for Linux & Windows.
 
 This is a minimal setup to quickly get started with OpenGL development using SDL3 as the windowing/input library and GLEW for managing OpenGL extensions.
 
