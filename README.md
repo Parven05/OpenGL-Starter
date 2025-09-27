@@ -11,7 +11,16 @@ Make sure you have the C++ development tools installed (compiler, CMake, etc.).
 ```bash
 sudo pacman -S base-devel cmake sdl3 glew
 ```
-### Usage
+**Ubuntu / Debian**
+```bash
+sudo apt update
+sudo apt install build-essential cmake libsdl3-dev libglew-dev
+```
+**Fedora**
+```bash
+sudo dnf install @development-tools cmake SDL3 glew
+```
+## Usage
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/OpenGL-Starter.git
