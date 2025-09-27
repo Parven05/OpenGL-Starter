@@ -23,3 +23,4 @@ cmake ..
 make
 ./main
 ```
+*Note: make sure to remove dummy files before or after compiling the project*
