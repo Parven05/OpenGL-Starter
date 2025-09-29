@@ -27,9 +27,6 @@ git clone https://github.com/yourusername/OpenGL-Starter.git
 ```
 2. Build & Run
 ```bash
-cd build
-cmake ..
-make
-./main
+./build.sh
 ```
 *Note: make sure to remove dummy files before or after compiling the project*
