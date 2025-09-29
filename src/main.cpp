@@ -78,8 +78,9 @@ int main() {
   glAttachShader(shaderProgram, fragmentShader);
   glLinkProgram(shaderProgram);
 
-  float vertices[] = {-0.5f, -0.5f, 0.0f, 0.5f, -0.5f,
-                      0.0f,  0.0f,  0.5f, 0.0f
+  float vertices[] = {-0.5f, -0.5f, 0.0f, 
+                      0.5f, -0.5f, 0.0f,  
+                      0.0f,  0.5f, 0.0f
 
   };
 
