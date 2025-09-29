@@ -23,7 +23,7 @@ sudo dnf install @development-tools cmake SDL3 glew
 ## Usage
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/OpenGL-Starter.git
+git clone https://github.com/Parven05/OpenGL-Starter.git
 ```
 2. Build & Run
 ```bash
