@@ -33,9 +33,13 @@ target_link_libraries(${PROJECT_NAME}
         GLEW::GLEW
 )
 
+# ✅ Place executable in bin/
+set_target_properties(${PROJECT_NAME} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin"
+)
+
 # ✅ Auto-copy compile_commands.json into project root
 if(EXISTS "${CMAKE_BINARY_DIR}/compile_commands.json")
     file(COPY "${CMAKE_BINARY_DIR}/compile_commands.json"
          DESTINATION "${CMAKE_SOURCE_DIR}")
 endif()
-

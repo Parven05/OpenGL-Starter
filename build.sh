@@ -1,6 +1,5 @@
 #!/bin/bash
-
 set -e
-cd build
-make
-./main
+
+cmake --build build
+./bin/main
