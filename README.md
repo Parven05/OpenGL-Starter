@@ -32,4 +32,4 @@ git clone https://github.com/Parven05/OpenGL-Starter.git
 # Build & run exe file
 ./build.sh
 ```
-*Note: make sure to remove dummy files before or after compiling the project*
+*Note: .vscode/launch.json contains LLDB/GDB configurations. You can remove it if you're not using VS Code as your editor.*
