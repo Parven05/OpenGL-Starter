@@ -2,5 +2,4 @@
 
 set -e
 cd build
-make
-./main
+cmake ..
