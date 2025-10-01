@@ -27,7 +27,7 @@ git clone https://github.com/Parven05/OpenGL-Starter.git
 ```
 2. Build & Run
 ```bash
-# Generate cmake files (recommended run it once) 
+# Generate cmake files (recommended to run it once) 
 ./rebuild.sh
 # Build & run exe file
 ./build.sh
